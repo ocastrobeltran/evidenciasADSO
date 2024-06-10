@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>ADSO - OSCAR CASTRO</title>
+    <style src="./css/style.css"></style>
+  </head>
+  <body>
+    <header id="headerTop" style="background-color: white">
+      <img
+        src="./img/logoSena.png"
+        alt="Logo de la página"
+        style="float: left"
+      />
+      <h1>Análisis y desarrollo de software - 2805921</h1>
+    </header>
+    <section
+      id="bannerPrincipal"
+      style="
+        background-color: #5eb319;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      "
+    >
+      <h2 style="text-align: left">
+        GA3-220501093-AA2-EV03 taller aplicando funciones y procedimientos en la
+        solución de algoritmos.
+      </h2>
+      <h3 style="text-align: right">Instructor: Miguel Romero</h3>
+    </section>
+
+    <section id="areaBotones">
+        <button id="botonEjercicio1" onclick="mostrarEjercicio1()">Ejercicio 1</button>
+        <button id="botonEjercicio2" onclick="mostrarEjercicio2()">Ejercicio 2</button>
+        <button id="botonEjercicio3" onclick="mostrarEjercicio3()">Ejercicio 3</button>
+        <button id="botonEjercicio4" onclick="mostrarEjercicio4()">Ejercicio 4</button>
+        <button id="botonEjercicio5" onclick="mostrarEjercicio5()">Ejercicio 5</button>
+        <button id="botonEjercicio6" onclick="mostrarEjercicio6()">Ejercicio 6</button>
+        <button id="botonEjercicio7" onclick="mostrarEjercicio7()">Ejercicio 7</button>
+        <button id="botonEjercicio8" onclick="mostrarEjercicio8()">Ejercicio 8</button>
+        <button id="botonEjercicio9" onclick="mostrarEjercicio9()">Ejercicio 9</button>
+        <button id="botonEjercicio10" onclick="mostrarEjercicio10()">Ejercicio 10</button>
+    </section>
+    <section id="areaContenedor"></section>
+
+    <h3 id="tituloEjercicio"></h3>
+    <p id="parrafoTexto"></p>
+    <div id="contenedorBotones" style="display: none">
+      <button id="botonMostrarCodigo">Mostrar Codigo</button>
+      <button id="botonMostrarDfd">Mostrar DFD</button>
+      <button id="botonEjecutarCodigo">Ejecutar Codigo</button>
+      <img id="imagenEjercicio" />
+    </div>
+
+
+    <footer id="footerBottom">
+      <p>ADSO - Oscar Castro</p>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
