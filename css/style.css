@@ -1,0 +1,25 @@
+#bannerPrincipal {
+        background-color: #5eb319;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+}
+
+.headerTop {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px;
+    background-color: white
+}
+
+.logoSena {
+    width: 60px;
+    height: 60px;
+    float: left
+}
+
+.ADSO {
+    padding-left: 50px;
+}
