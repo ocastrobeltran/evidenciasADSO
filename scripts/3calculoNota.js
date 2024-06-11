@@ -11,4 +11,4 @@ const notaTrabajos_odcb = (notaTaller1_odcb + notaTaller2_odcb + notaQuiz_odcb) 
 const notaFinal_odcb = (0.3 * notaTrabajos_odcb) + (0.7 * notaExamenParcial_odcb);
 
 //utilizamos el metodo toFixed para redondear a 2 decimales
-console.log(`La nota final del primer parcial de "análisis" es aproximadamente ${notaFinal_odcb.toFixed(2)}.`);
+console.log(`La nota final del primer parcial de "análisis" es ${notaFinal_odcb.toFixed(2)}.`);
