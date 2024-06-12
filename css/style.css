@@ -1,25 +1,161 @@
-#bannerPrincipal {
-        background-color: #5eb319;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
+
+.bannerPrincipal {
+    background-color: #5eb319;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white; 
+    margin: 0;
+    width: 100%;
+    grid-column: auto;
 }
 
 .headerTop {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     padding: 10px;
-    background-color: white
+    background-color: white;
+}
+
+.instructor {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b0f81;
 }
 
 .logoSena {
     width: 60px;
     height: 60px;
-    float: left
+    float: left;
 }
 
 .ADSO {
     padding-left: 50px;
 }
+
+.botonEjercicio {
+    background-color: #5eb319;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botonEjercicio:hover {
+    background-color: #4db106;
+}
+
+.botonEjercicio:active {
+    background-color: #3c9405;
+}
+
+.areaBotones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #05dfe2;
+}
+
+.areaEjercicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #05dfe2;
+}
+
+.contenedorImagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #05dfe2;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.textoEjercicio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b0f81;
+}
+
+.contenedorBotones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #05dfe2;
+}
+
+.footerBottom {
+    margin-top: auto; 
+    text-align: center; 
+    background-color: #f8f9fa; 
+    padding: 20px 0; 
+    color: #6c757d;
+  }
+
+@media only screen and (max-width: 600px) {
+    #bannerPrincipal {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .headerTop {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .logoSena {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .ADSO {
+        padding-left: 0;
+    }
+
+    .areaBotones,
+    .areaEjercicio,
+    .contenedorImagenes,
+    .contenedorBotones {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .textoEjercicio {
+        font-size: 16px;
+    }
+
+    .footerBottom {
+        padding: 10px;
+    }
+}
+
+.botonDescarga {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #4A2C8F !important;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px #A0B9DE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+  }
+  .botonDescarga:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+  }

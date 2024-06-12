@@ -14,44 +14,61 @@
         alt="Logo de la página"
         class="logoSena"
       />
+    <div>
       <h1 class="ADSO">Análisis y desarrollo de software - 2805921</h1>
+    </div>
     </header>
     <section id="bannerPrincipal" class="bannerPrincipal">
-      <h2 style="text-align: left">
-        GA3-220501093-AA2-EV03 taller aplicando funciones y procedimientos en la
-        solución de algoritmos.
-      </h2>
-      <h3 style="text-align: right">Instructor: Miguel Romero</h3>
-      <a href="./GA3-220501093-AA2-EV03 taller aplicando funciones y procedimientos en la solución de algoritmos..pdf">
-        <button type="button">Ver PDF de Evidencia</button>
-      </a>      
+      <div>
+        <h2>
+          GA3-220501093-AA2-EV03 taller aplicando funciones y procedimientos en la solución de algoritmos.
+        </h2>
+        <h3 class="instructor">Instructor: Miguel Romero</h3>
+      </div>
+      <div>
+        <a href="./GA3-220501093-AA2-EV03 taller aplicando funciones y procedimientos en la solución de algoritmos..pdf">
+          <button class="botonDescarga" type="button">Ver PDF de Evidencia</button>
+        </a>
+      </div>      
     </section>
 
-    <section id="areaBotones">
-        <button id="botonEjercicio1" onclick="mostrarEjercicio1()">Ejercicio 1</button>
-        <button id="botonEjercicio2" onclick="mostrarEjercicio2()">Ejercicio 2</button>
-        <button id="botonEjercicio3" onclick="mostrarEjercicio3()">Ejercicio 3</button>
-        <button id="botonEjercicio4" onclick="mostrarEjercicio4()">Ejercicio 4</button>
-        <button id="botonEjercicio5" onclick="mostrarEjercicio5()">Ejercicio 5</button>
-        <button id="botonEjercicio6" onclick="mostrarEjercicio6()">Ejercicio 6</button>
-        <button id="botonEjercicio7" onclick="mostrarEjercicio7()">Ejercicio 7</button>
-        <button id="botonEjercicio8" onclick="mostrarEjercicio8()">Ejercicio 8</button>
-        <button id="botonEjercicio9" onclick="mostrarEjercicio9()">Ejercicio 9</button>
-        <button id="botonEjercicio10" onclick="mostrarEjercicio10()">Ejercicio 10</button>
+    <section id="areaBotones" class="areaBotones" >
+      <div>
+        <button id="botonEjercicio1" class="botonEjercicio" onclick="mostrarEjercicio1()">Ejercicio 1</button>
+        <button id="botonEjercicio2" class="botonEjercicio" onclick="mostrarEjercicio2()">Ejercicio 2</button>
+        <button id="botonEjercicio3" class="botonEjercicio" onclick="mostrarEjercicio3()">Ejercicio 3</button>
+        <button id="botonEjercicio4" class="botonEjercicio" onclick="mostrarEjercicio4()">Ejercicio 4</button>
+        <button id="botonEjercicio5" class="botonEjercicio" onclick="mostrarEjercicio5()">Ejercicio 5</button>
+        <button id="botonEjercicio6" class="botonEjercicio" onclick="mostrarEjercicio6()">Ejercicio 6</button>
+        <button id="botonEjercicio7" class="botonEjercicio" onclick="mostrarEjercicio7()">Ejercicio 7</button>
+        <button id="botonEjercicio8" class="botonEjercicio" onclick="mostrarEjercicio8()">Ejercicio 8</button>
+        <button id="botonEjercicio9" class="botonEjercicio" onclick="mostrarEjercicio9()">Ejercicio 9</button>
+        <button id="botonEjercicio10" class="botonEjercicio" onclick="mostrarEjercicio10()">Ejercicio 10</button>
+      </div>
     </section>
     <section id="areaContenedor"></section>
 
-    <h3 id="tituloEjercicio"></h3>
-    <p id="parrafoTexto"></p>
-    <div id="contenedorBotones" style="display: none">
-      <button id="botonMostrarCodigo">Mostrar Codigo</button>
-      <button id="botonMostrarDfd">Mostrar DFD</button>
-      <button id="botonEjecutarCodigo">Ejecutar Codigo</button>
-      <img id="imagenEjercicio" />
-    </div>
+    <section id="areaEjercicio" class="areaEjercicio">
+      <div class="textoEjercicio">
+        <h3 id="tituloEjercicio"></h3>
+        <p id="parrafoTexto"></p>
+      </div>
+    </section>
+    <section class="contenedorBotones">
+      <div id="contenedorBotones" style="display: none">
+        <button id="botonMostrarCodigo" class="botonEjercicio">Mostrar Codigo</button>
+        <button id="botonMostrarDfd" class="botonEjercicio">Mostrar DFD</button>
+        <button id="botonEjecutarCodigo" class="botonEjercicio">Ejecutar Codigo</button>
+      </div>
+    </section>
+    <section class="areaImagenes">
+      <div class="contenedorImagenes">
+        <img id="imagenEjercicio" />
+      </div>
+    </section>
 
 
-    <footer id="footerBottom">
+    <footer id="footerBottom" class="footerBottom">
       <p>ADSO - Oscar Castro</p>
 
     <script src="./scripts/index.js"></script>
