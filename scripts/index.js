@@ -2,7 +2,7 @@ function actualizarMenu() {
   if (document.getElementById('responsive-menu').checked == true) {
     document.getElementById('menu').style.borderBottomRightRadius = '0';
     document.getElementById('menu').style.borderBottomLeftRadius = '0';
-  }else{
+  } else {
     document.getElementById('menu').style.borderRadius = '10px';
   }
 }
@@ -19,6 +19,7 @@ function ejercicio1() {
   // Calculamos el tiempo medio por kilómetro
   const tiempoMedioPorKilometro_odcb = tiempoTotalEnMinutos_odcb / distanciaMaratonKm_odcb;
 
+  mostrarTextoConsola();
   // Utilizamos el metodo toFixed para redondear a 2 decimales
   console.log(`El tiempo medio por kilómetro es aproximadamente ${tiempoMedioPorKilometro_odcb.toFixed(2)} minutos.`);
 
@@ -60,6 +61,7 @@ function ejercicio2() {
   // Calculamos la temperatura en grados Fahrenheit
   const temperaturaFahrenheit_odcb = (9 / 5) * temperaturaCelsius_odcb + 32;
 
+  mostrarTextoConsola();
   // Utilizamos el metodo toFixed para redondear a 2 decimales
   console.log(`La temperatura en grados Fahrenheit es de ${temperaturaFahrenheit_odcb.toFixed(2)}°F.`);
 
@@ -91,6 +93,7 @@ function ejercicio2() {
   });
 
   modal.appendChild(closeButton);
+  
 }
 
 function ejercicio3() {
@@ -106,6 +109,7 @@ function ejercicio3() {
   // Calculamos la nota final 
   const notaFinal_odcb = (0.3 * notaTrabajos_odcb) + (0.7 * notaExamenParcial_odcb);
 
+  mostrarTextoConsola()
   //utilizamos el metodo toFixed para redondear a 2 decimales
   console.log(`La nota final del primer parcial de "análisis" es aproximadamente ${notaFinal_odcb.toFixed(2)}.`);
 
@@ -149,6 +153,7 @@ function ejercicio4() {
   // utilizamos el metodo math.log para calcular el tiempo de duplicación
   const tiempoDuplicacion_odcb = Math.log(2) / Math.log(1 + tasaInteresDecimal_odcb);
 
+  mostrarTextoConsola()
   console.log(`El capital se duplicará aproximadamente en ${tiempoDuplicacion_odcb.toFixed(2)} años.`);
 
   // Mostrar el resultado en un modal
@@ -194,6 +199,7 @@ function ejercicio5() {
   // Filtremos los números menores o iguales a 25
   const numerosMenoresOIguales25_odcb = listaNumeros_odcb.filter(numero_odcb => numero_odcb <= 25);
 
+  mostrarTextoConsola()
   //utilizamos el método join para mostrar los números separados por coma
   console.log(`Los números menores o iguales a 25 son: ${numerosMenoresOIguales25_odcb.join(', ')}.`);
 
@@ -245,6 +251,7 @@ function ejercicio6() {
   // Calculemos el total en pesos
   const totalPesos_odcb = totalDolares_odcb * tipoCambio_odcb;
 
+  mostrarTextoConsola()
   console.log(`El precio total de la venta es de ${totalPesos_odcb} pesos.`);
 
   // Mostrar el resultado en un modal
@@ -294,6 +301,7 @@ function ejercicio7() {
   const descuento_odcb = 0.2;
   const consumosConDescuento_odcb = consumosClientes_odcb.map(consumo_odcb => (consumo_odcb > 50000) ? consumo_odcb - (consumo_odcb * descuento_odcb) : consumo_odcb);
 
+  mostrarTextoConsola()
   // Mostrar los pagos individuales (con o sin descuento)
   console.log('Pagos individuales:');
   for (let i_odcb = 0; i_odcb < consumosClientes_odcb.length; i_odcb++) {
@@ -356,6 +364,7 @@ function ejercicio8() {
     }
   }
 
+  mostrarTextoConsola()
   console.log(`La hora en el siguiente segundo es: ${hora_odcb}:${minutos_odcb}:${segundos_odcb}`);
 
   // Mostrar el resultado en un modal
@@ -400,6 +409,7 @@ function ejercicio9() {
     producto_odcb *= i_odcb;
   }
 
+  mostrarTextoConsola()
   console.log(`El producto desde 1 hasta ${N_odcb} es: ${producto_odcb}`);
 
   // Mostrar el resultado en un modal
@@ -437,6 +447,7 @@ function ejercicio10() {
   const numero_odcb = prompt("Ingrese un número entre 1 y 10 para mostrar su tabla de multiplicar decreciente:");
   let multiplicaciones = [];
 
+  mostrarTextoConsola()
   // Mostramos con un ciclo for la tabla de multiplicar decreciente
   for (let i_odcb = 10; i_odcb >= 1; i_odcb--) {
     console.log(`${numero_odcb} x ${i_odcb} = ${numero_odcb * i_odcb}`);
@@ -476,6 +487,7 @@ function ejercicio10() {
 let tituloEjercicio = document.getElementById("tituloEjercicio");
 let parrafoTexto = document.getElementById("parrafoTexto");
 const contenedorBotones = document.getElementById("contenedorBotones");
+const contenedorConsola = document.getElementById("contenedorConsola");
 const botonMostrarCodigo = document.getElementById("botonMostrarCodigo");
 const botonMostrarDfd = document.getElementById("botonMostrarDfd");
 const botonEjecutarCodigo = document.getElementById("botonEjecutarCodigo");
@@ -691,4 +703,19 @@ function mostrarEjercicio10() {
   botonEjecutarCodigo.addEventListener("click", function () {
     ejercicio10();
   });
+}
+
+function mostrarTextoConsola() {
+  var consolaHTML = document.getElementById('consolaTexto');
+
+  // Capturamos el console.log original
+  var consoleLogOriginal = console.log;
+  console.log = function (mensaje) {
+    consoleLogOriginal(mensaje);
+
+    contenedorConsola.style.display = 'block';
+    consolaHTML.textContent += ' ';  // Limpiamos el contenido anterior del elemento.
+    // Añadimos el mensaje al HTML
+    consolaHTML.textContent += mensaje + '\n';
+  };
 }
