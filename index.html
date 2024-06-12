@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+    <nav id='menu'>
+      <input type='checkbox' id='responsive-menu' onclick='actualizarMenu()'><label></label>
+      <ul>
+        <li><a href='http://'>Home
+        </a></li>
+        <li><a class='dropdown-arrow' href='http://'>Evidencias</a>
+          <ul class='sub-menus'>
+            <li><a href='http://'>GA1</a></li>
+            <li><a href='http://'>GA2</a></li>
+            <li><a href='http://'>GA3</a></li>
+            <li><a href='http://'>GA4</a></li>
+          </ul>
+        </li>
+        <li><a class='dropdown-arrow' href='http://'>Oscar Castro</a>
+          <ul class='sub-menus'>
+            <li><a href='http://'>GitHub</a></li>
+            <li><a href='http://'>LinkedIn</a></li>
+          </ul>
+        </li>
+        <li class="adsoHeader">Análisis y desarrollo de software - 2805921</li>
+      </ul>
+    </nav>
     <header id="headerTop" class="headerTop">
       <img
         src="./img/logoSena.png"
@@ -15,17 +37,17 @@
         class="logoSena"
       />
     <div>
-      <h1 class="ADSO">Análisis y desarrollo de software - 2805921</h1>
+      <h1 class="ADSO">Fase 2 Planeacion - Actividad de proyecto 3</h1>
     </div>
     </header>
     <section id="bannerPrincipal" class="bannerPrincipal">
-      <div>
+      <div class="textoEvidencia">
         <h2>
           GA3-220501093-AA2-EV03 taller aplicando funciones y procedimientos en la solución de algoritmos.
         </h2>
         <h3 class="instructor">Instructor: Miguel Romero</h3>
       </div>
-      <div>
+      <div class="contenedorDescarga">
         <a href="./GA3-220501093-AA2-EV03 taller aplicando funciones y procedimientos en la solución de algoritmos..pdf">
           <button class="botonDescarga" type="button">Ver PDF de Evidencia</button>
         </a>
