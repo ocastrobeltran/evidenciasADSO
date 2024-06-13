@@ -537,7 +537,6 @@ function mostrarTextoConsola() {
     // Añadimos el mensaje al HTML
     consolaHTML.textContent += mensaje + '\n';
 
-    // indcamos que se haga auto scroll al elemento
-    consolaHTML.scrollTop = consolaHTML.scrollHeight;
+    consolaHTML.scrollIntoView({behavior: "smooth"});
   };
 }
