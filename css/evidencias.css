@@ -4,32 +4,11 @@ body {
     font-family: 'Archivo', sans-serif;
 }
 
-.bannerPrincipal {
-    background-color: #5eb319;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    margin: 0;
-    /* width: 100%; */
-    grid-column: auto;
-}
-
 .headerTop {
     display: flex;
     align-items: center;
     padding: 10px;
     background-color: white;
-}
-
-.textoEvidencia {
-    padding-left: 30px;
-}
-
-.instructor {
-    font-size: 20px;
-    font-weight: bold;
-    color: #0b0f81;
 }
 
 .logoSena {
@@ -46,141 +25,12 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-.botonEjercicio, .botonEjecutar {
-    background-color: #5eb319;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.botonEjecutar {
-    display: none;
-}
-
-.botonesEjercicios {
-    display: none;
-    align-self: center;
-}
-
-.botonEjercicio:hover {
-    background-color: #4db106;
-}
-
-.botonEjercicio:active {
-    background-color: #3c9405;
-}
-
-.areaBotones {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #05dfe2;
-}
-
-.areaEjercicio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #05dfe2;
-}
-
-.imagenEjercicio {
-    width: 70%;
-    height: 70%;
-}
-
-.contenedorImagenes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #05dfe2;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.areaImagenes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #05dfe2;
-}
-
-.textoEjercicio {
-    font-size: 20px;
-    font-weight: bold;
-    color: #0b0f81;
-    padding: 50px;
-}
-
-.contenedorBotones {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #05dfe2;
-}
-
 .footerBottom {
     margin-top: auto;
     text-align: center;
     background-color: #f8f9fa;
     padding: 20px 0;
     color: #6c757d;
-}
-
-.botonDescarga {
-    font-family: helvetica;
-    font-weight: bold;
-    color: #4A2C8F !important;
-    font-size: 16px;
-    text-shadow: 1px 1px 0px #A0B9DE;
-    box-shadow: 1px 1px 1px #BEE2F9;
-    padding: 10px 25px;
-    border-radius: 10px;
-    border: 2px solid #3866A3;
-    background: #63B8EE;
-    background: linear-gradient(to top, #63B8EE, #468CCF);
-    cursor: pointer;
-}
-
-.botonDescarga:hover {
-    color: #14396A !important;
-    background: #468CCF;
-    background: linear-gradient(to top, #468CCF, #63B8EE);
-}
-
-.contenedorDescarga {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 40px;
-}
-
-.contenedorConsola {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    background-color: #050f0f;
-    flex-direction: column;
-    padding: 50px;
-    margin: 50px;
-    border: solid 2px #5EB319;
-    border-radius: 10px;
-    font-family: 'Source Code Pro', monospace;
-    color: #5EB319;
-
 }
 
 #menu {

@@ -93,11 +93,6 @@ body {
     background-color: #05dfe2;
 }
 
-.imagenEjercicio {
-    width: 70%;
-    height: 70%;
-}
-
 .contenedorImagenes {
     display: flex;
     justify-content: center;

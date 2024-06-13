@@ -13,7 +13,7 @@
       <ul>
         <li><a href='/'>Home
         </a></li>
-        <li><a class='dropdown-arrow' href='http://'>Evidencias</a>
+        <li><a class='dropdown-arrow' href='./views/evidencias.html'>Evidencias</a>
           <ul class='sub-menus'>
             <li><a href='http://'>GA1</a></li>
             <li><a href='http://'>GA2</a></li>
@@ -48,7 +48,7 @@
         <h3 class="instructor">Instructor: Miguel Romero</h3>
       </div>
       <div class="contenedorDescarga">
-        <a href="./GA3-220501093-AA2-EV03 taller aplicando funciones y procedimientos en la solución de algoritmos..pdf">
+        <a href="https://soysena-my.sharepoint.com/:b:/g/personal/oscard_castrob_soy_sena_edu_co/EWeAZJjuC7xFozvutQ_V500BUslBptR98Z-A-jXiWufF6g?e=Nbhd28">
           <button class="botonDescarga" type="button">Ver PDF de Evidencia</button>
         </a>
       </div>      
@@ -77,13 +77,25 @@
       </div>
     </section>
     <section class="contenedorBotones">
-      <div id="contenedorBotones" style="display: none">
+      <div id="contenedorBotones" class="botonesEjercicios">
         <button id="botonMostrarCodigo" class="botonEjercicio">Mostrar Codigo</button>
         <button id="botonMostrarDfd" class="botonEjercicio">Mostrar DFD</button>
-        <button id="botonEjecutarCodigo" class="botonEjercicio">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo1" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo2" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo3" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo4" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo5" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo6" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo7" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo8" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo9" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
+        <button id="botonEjecutarCodigo10" class="botonEjecutar" style="display: none;">Ejecutar Codigo</button>
       </div>
     </section>
     <section class="areaImagenes">
+      <div class="contenedorConsola" id="contenedorConsola">
+        <p id="consolaTexto" class="consolaTexto"></p>
+      </div>
       <div class="contenedorImagenes">
         <img id="imagenEjercicio" />
       </div>
@@ -93,6 +105,6 @@
     <footer id="footerBottom" class="footerBottom">
       <p>ADSO - Oscar Castro</p>
 
-    <script src="./scripts/index.js"></script>
+    <script src="../scripts/aplicandoFunciones.js"></script>
   </body>
 </html>
