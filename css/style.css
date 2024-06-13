@@ -46,7 +46,7 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-.botonEjercicio {
+.botonEjercicio, .botonEjecutar {
     background-color: #5eb319;
     color: white;
     border: none;
@@ -58,6 +58,15 @@ body {
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botonEjecutar {
+    display: none;
+}
+
+.botonesEjercicios {
+    display: none;
+    align-self: center;
 }
 
 .botonEjercicio:hover {
@@ -111,6 +120,7 @@ body {
 
 .contenedorBotones {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px;

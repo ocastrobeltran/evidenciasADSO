@@ -22,36 +22,6 @@ function ejercicio1() {
   mostrarTextoConsola();
   // Utilizamos el metodo toFixed para redondear a 2 decimales
   console.log(`El tiempo medio por kilómetro es aproximadamente ${tiempoMedioPorKilometro_odcb.toFixed(2)} minutos.`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `El tiempo medio por kilómetro es aproximadamente ${tiempoMedioPorKilometro_odcb.toFixed(2)} minutos.`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
-
 }
 
 function ejercicio2() {
@@ -64,36 +34,6 @@ function ejercicio2() {
   mostrarTextoConsola();
   // Utilizamos el metodo toFixed para redondear a 2 decimales
   console.log(`La temperatura en grados Fahrenheit es de ${temperaturaFahrenheit_odcb.toFixed(2)}°F.`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `La temperatura en grados Fahrenheit es de ${temperaturaFahrenheit_odcb.toFixed(2)}°F.`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
-  
 }
 
 function ejercicio3() {
@@ -112,35 +52,6 @@ function ejercicio3() {
   mostrarTextoConsola()
   //utilizamos el metodo toFixed para redondear a 2 decimales
   console.log(`La nota final del primer parcial de "análisis" es aproximadamente ${notaFinal_odcb.toFixed(2)}.`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `La nota final del primer parcial de "análisis" es aproximadamente ${notaFinal_odcb.toFixed(2)}.`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
 }
 
 function ejercicio4() {
@@ -155,35 +66,6 @@ function ejercicio4() {
 
   mostrarTextoConsola()
   console.log(`El capital se duplicará aproximadamente en ${tiempoDuplicacion_odcb.toFixed(2)} años.`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `El capital se duplicará aproximadamente en ${tiempoDuplicacion_odcb.toFixed(2)} años.`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
 }
 
 function ejercicio5() {
@@ -202,36 +84,6 @@ function ejercicio5() {
   mostrarTextoConsola()
   //utilizamos el método join para mostrar los números separados por coma
   console.log(`Los números menores o iguales a 25 son: ${numerosMenoresOIguales25_odcb.join(', ')}.`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `Los números menores o iguales a 25 son: ${numerosMenoresOIguales25_odcb.join(', ')}.`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
-
 }
 
 function ejercicio6() {
@@ -253,36 +105,6 @@ function ejercicio6() {
 
   mostrarTextoConsola()
   console.log(`El precio total de la venta es de ${totalPesos_odcb} pesos.`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `El precio total de la venta es de ${totalPesos_odcb} pesos.`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
-
 }
 
 function ejercicio7() {
@@ -303,45 +125,17 @@ function ejercicio7() {
 
   mostrarTextoConsola()
   // Mostrar los pagos individuales (con o sin descuento)
-  console.log('Pagos individuales:');
+  let resultado = 'Pagos individuales:\n';
   for (let i_odcb = 0; i_odcb < consumosClientes_odcb.length; i_odcb++) {
-    console.log(`Cliente ${i_odcb + 1}: ${consumosConDescuento_odcb[i_odcb]} pesos`);
+    resultado += `Cliente ${i_odcb + 1}: ${consumosConDescuento_odcb[i_odcb]} pesos\n`;
     alert(`Cliente ${i_odcb + 1}: ${consumosConDescuento_odcb[i_odcb]} pesos`);
   }
 
   // Mostrar el total de todos los pagos (con descuento)
   // utilizamos el metodo reduce para sumar los consumos
   const totalPagosConDescuento_odcb = consumosConDescuento_odcb.reduce((total_odcb, consumo_odcb) => total_odcb + consumo_odcb, 0);
-  console.log(`Total de todos los pagos (con descuento): ${totalPagosConDescuento_odcb} pesos`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `Total de todos los pagos (con descuento): ${totalPagosConDescuento_odcb} pesos`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
+  resultado += `Total de todos los pagos (con descuento): ${totalPagosConDescuento_odcb} pesos`;
+  console.log(resultado);
 }
 
 function ejercicio8() {
@@ -366,35 +160,6 @@ function ejercicio8() {
 
   mostrarTextoConsola()
   console.log(`La hora en el siguiente segundo es: ${hora_odcb}:${minutos_odcb}:${segundos_odcb}`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `La hora en el siguiente segundo es: ${hora_odcb}:${minutos_odcb}:${segundos_odcb}`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
 }
 
 function ejercicio9() {
@@ -411,35 +176,6 @@ function ejercicio9() {
 
   mostrarTextoConsola()
   console.log(`El producto desde 1 hasta ${N_odcb} es: ${producto_odcb}`);
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `El producto desde 1 hasta ${N_odcb} es: ${producto_odcb}`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
 }
 
 function ejercicio10() {
@@ -449,39 +185,12 @@ function ejercicio10() {
 
   mostrarTextoConsola()
   // Mostramos con un ciclo for la tabla de multiplicar decreciente
+  let resultado = '';
   for (let i_odcb = 10; i_odcb >= 1; i_odcb--) {
-    console.log(`${numero_odcb} x ${i_odcb} = ${numero_odcb * i_odcb}`);
+    resultado += `${numero_odcb} x ${i_odcb} = ${numero_odcb * i_odcb}\n`;
     multiplicaciones.push(`${numero_odcb} x ${i_odcb} = ${numero_odcb * i_odcb}`);
   }
-
-  // Mostrar el resultado en un modal
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.textContent = `Tabla de multiplicar decreciente de ${numero_odcb}:\n${multiplicaciones.join('\n')}`;
-
-  document.body.appendChild(modal);
-
-  // Agregar estilos al modal
-  modal.style.position = 'fixed';
-  modal.style.top = '50%';
-  modal.style.left = '50%';
-  modal.style.transform = 'translate(-50%, -50%)';
-  modal.style.backgroundColor = 'white';
-  modal.style.padding = '20px';
-  modal.style.border = '1px solid black';
-  modal.style.borderRadius = '5px';
-  modal.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-  modal.style.zIndex = '9999';
-
-  // Agregar botón de cerrar al modal
-  const closeButton = document.createElement('button');
-  closeButton.textContent = 'Cerrar';
-  closeButton.style.marginTop = '10px';
-  closeButton.addEventListener('click', () => {
-    document.body.removeChild(modal);
-  });
-
-  modal.appendChild(closeButton);
+  console.log(resultado);
 }
 
 let tituloEjercicio = document.getElementById("tituloEjercicio");
@@ -490,7 +199,16 @@ const contenedorBotones = document.getElementById("contenedorBotones");
 const contenedorConsola = document.getElementById("contenedorConsola");
 const botonMostrarCodigo = document.getElementById("botonMostrarCodigo");
 const botonMostrarDfd = document.getElementById("botonMostrarDfd");
-const botonEjecutarCodigo = document.getElementById("botonEjecutarCodigo");
+const botonEjecutarCodigo1 = document.getElementById("botonEjecutarCodigo1");
+const botonEjecutarCodigo2 = document.getElementById("botonEjecutarCodigo2");
+const botonEjecutarCodigo3 = document.getElementById("botonEjecutarCodigo3");
+const botonEjecutarCodigo4 = document.getElementById("botonEjecutarCodigo4");
+const botonEjecutarCodigo5 = document.getElementById("botonEjecutarCodigo5");
+const botonEjecutarCodigo6 = document.getElementById("botonEjecutarCodigo6");
+const botonEjecutarCodigo7 = document.getElementById("botonEjecutarCodigo7");
+const botonEjecutarCodigo8 = document.getElementById("botonEjecutarCodigo8");
+const botonEjecutarCodigo9 = document.getElementById("botonEjecutarCodigo9");
+const botonEjecutarCodigo10 = document.getElementById("botonEjecutarCodigo10");
 const imagenEjercicio = document.getElementById("imagenEjercicio");
 const objetoEjercicios = {
   "titulo1": "Ejercicio 1",
@@ -540,14 +258,25 @@ function mostrarEjercicio1() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo1;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta1;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo1.style.display = "block";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama1;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo1;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  // insertarBotonEjecutar1();
+  botonEjecutarCodigo1.addEventListener("click", function () {
     ejercicio1();
   });
 }
@@ -557,14 +286,24 @@ function mostrarEjercicio2() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo2;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta2;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo2.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama2;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo2;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo2.addEventListener("click", function () {
     ejercicio2();
   });
 }
@@ -574,14 +313,24 @@ function mostrarEjercicio3() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo3;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta3;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo3.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama3;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo3;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo3.addEventListener("click", function () {
     ejercicio3();
   });
 }
@@ -591,14 +340,24 @@ function mostrarEjercicio4() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo4;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta4;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo4.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama4;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo4;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo4.addEventListener("click", function () {
     ejercicio4();
   });
 }
@@ -608,14 +367,24 @@ function mostrarEjercicio5() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo5;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta5;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo5.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama5;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo5;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo5.addEventListener("click", function () {
     ejercicio5();
   });
 }
@@ -625,14 +394,24 @@ function mostrarEjercicio6() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo6;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta6;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo6.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama6;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo6;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo6.addEventListener("click", function () {
     ejercicio6();
   });
 }
@@ -642,14 +421,24 @@ function mostrarEjercicio7() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo7;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta7;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo7.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama7;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo7;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo7.addEventListener("click", function () {
     ejercicio7();
   });
 }
@@ -659,14 +448,24 @@ function mostrarEjercicio8() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo8;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta8;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo8.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama8;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo8;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo8.addEventListener("click", function () {
     ejercicio8();
   });
 }
@@ -676,14 +475,24 @@ function mostrarEjercicio9() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo9;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta9;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo9.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo10.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama9;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo9;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo9.addEventListener("click", function () {
     ejercicio9();
   });
 }
@@ -693,29 +502,42 @@ function mostrarEjercicio10() {
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo10;
   parrafoTexto.innerHTML = objetoEjercicios.pregunta10;
-  contenedorBotones.style.display = "block";
+  contenedorBotones.style.display = "flex";
+  botonEjecutarCodigo10.style.display = "block";
+  botonEjecutarCodigo1.style.display = "none";
+  botonEjecutarCodigo2.style.display = "none";
+  botonEjecutarCodigo3.style.display = "none";
+  botonEjecutarCodigo4.style.display = "none";
+  botonEjecutarCodigo5.style.display = "none";
+  botonEjecutarCodigo6.style.display = "none";
+  botonEjecutarCodigo7.style.display = "none";
+  botonEjecutarCodigo8.style.display = "none";
+  botonEjecutarCodigo9.style.display = "none";
   botonMostrarDfd.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.diagrama10;
   });
   botonMostrarCodigo.addEventListener("click", function () {
     imagenEjercicio.src = objetoEjercicios.codigo10;
   });
-  botonEjecutarCodigo.addEventListener("click", function () {
+  botonEjecutarCodigo10.addEventListener("click", function () {
     ejercicio10();
   });
 }
 
 function mostrarTextoConsola() {
-  var consolaHTML = document.getElementById('consolaTexto');
+  let consolaHTML = document.getElementById('consolaTexto');
 
   // Capturamos el console.log original
-  var consoleLogOriginal = console.log;
+  let consoleLogOriginal = console.log;
   console.log = function (mensaje) {
     consoleLogOriginal(mensaje);
 
-    contenedorConsola.style.display = 'block';
-    consolaHTML.textContent += ' ';  // Limpiamos el contenido anterior del elemento.
+    contenedorConsola.style.display = 'flex';
+    consolaHTML.textContent = ' ';  // Limpiamos el contenido anterior del elemento.
     // Añadimos el mensaje al HTML
     consolaHTML.textContent += mensaje + '\n';
+
+    // indcamos que se haga auto scroll al elemento
+    consolaHTML.scrollTop = consolaHTML.scrollHeight;
   };
 }
