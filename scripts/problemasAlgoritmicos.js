@@ -10,24 +10,24 @@ function actualizarMenu() {
 function ejercicio1() {
     mostrarTextoConsola();
     function pedirDatosYCalcular() {
-        let figura = prompt("¿Qué figura deseas calcular (triangulo, rectangulo, cuadrado, circulo)?");
+        let figura = prompt("¿Qué figura deseas calcular? escriba el numero indicado \n (1)triangulo \n (2) rectangulo \n (3) cuadrado \n (4) circulo");
         let dimensiones = {};
     
         switch(figura) {
-            case 'triangulo':
+            case '1':
                 dimensiones.a = parseFloat(prompt("Ingresa el valor del lado a"));
                 dimensiones.b = parseFloat(prompt("Ingresa el valor del lado b"));
                 dimensiones.c = parseFloat(prompt("Ingresa el valor del lado c"));
                 dimensiones.h = parseFloat(prompt("Ingresa el valor de la altura h"));
                 break;
-            case 'rectangulo':
+            case '2':
                 dimensiones.largo = parseFloat(prompt("Ingresa el valor del largo"));
                 dimensiones.ancho = parseFloat(prompt("Ingresa el valor del ancho"));
                 break;
-            case 'cuadrado':
+            case '3':
                 dimensiones.lado = parseFloat(prompt("Ingresa el valor del lado"));
                 break;
-            case 'circulo':
+            case '4':
                 dimensiones.radio = parseFloat(prompt("Ingresa el valor del radio"));
                 break;
             default:
@@ -44,7 +44,7 @@ function ejercicio1() {
         let area = 0;
     
         switch(figura) {
-            case 'triangulo':
+            case '1':
                 let a = dimensiones.a;
                 let b = dimensiones.b;
                 let c = dimensiones.c;
@@ -52,18 +52,18 @@ function ejercicio1() {
                 perimetro = a + b + c;
                 area = (b * h) / 2;
                 break;
-            case 'rectangulo':
+            case '2':
                 let largo = dimensiones.largo;
                 let ancho = dimensiones.ancho;
                 perimetro = 2 * (largo + ancho);
                 area = largo * ancho;
                 break;
-            case 'cuadrado':
+            case '3':
                 let lado = dimensiones.lado;
                 perimetro = 4 * lado;
                 area = Math.pow(lado, 2);
                 break;
-            case 'circulo':
+            case '4':
                 let radio = dimensiones.radio;
                 perimetro = 2 * Math.PI * radio;
                 area = Math.PI * Math.pow(radio, 2);

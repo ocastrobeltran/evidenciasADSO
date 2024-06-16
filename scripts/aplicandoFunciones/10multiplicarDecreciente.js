@@ -5,4 +5,3 @@ const numero_odcb = 7;
 for (let i_odcb = 10; i_odcb >= 1; i_odcb--) {
   console.log(`${numero_odcb} x ${i_odcb} = ${numero_odcb * i_odcb}`);
 }
-
