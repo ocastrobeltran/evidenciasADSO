@@ -240,6 +240,7 @@ body {
     height: 60%;
     background-color: #5EB319;
     border-radius: 20px;
+    margin: auto;
 }
 #div1 {
 	grid-area: 1 / 1 / 2 / 2;

@@ -139,6 +139,19 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    #gridGAs {
+        width: 100%;
+        height: auto;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        margin: 0;
+    }
+
+    .contenedorGA {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
     #bannerPrincipal {
         flex-direction: column;
         padding: 20px;
@@ -230,24 +243,16 @@ body {
     }
 }
 
-.contenedorGA > div > div{
-
-    border-bottom: 2px solid #000;
-
-}
-
 #gridGAs {
     display: grid;
     align-items: center;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    gap: 0;
-    width: 50%;
+    width: 70%;
     height: 60%;
     background-color: #5EB319;
     border-radius: 20px;
-    justify-content: center;
-    align-content: center;
+    margin: 0 auto;
 
 }
 
@@ -257,6 +262,7 @@ body {
     align-content: center;
     justify-content: center;
     text-align: center;
+    margin-left: 20%;
 }
 
 #div2 {
@@ -274,6 +280,7 @@ body {
     align-content: center;
     justify-content: center;
     text-align: center;
+    margin-left: 20%;
 }
 
 #div4 {
@@ -291,6 +298,7 @@ body {
     align-content: center;
     justify-content: center;
     text-align: center;
+    margin-left: 20%;
 }
 
 #div6 {
@@ -308,6 +316,7 @@ body {
     align-content: center;
     justify-content: center;
     text-align: center;
+    margin-left: 20%;
 }
 
 #div8 {
@@ -325,6 +334,7 @@ body {
     align-content: center;
     justify-content: center;
     text-align: center;
+    margin-left: 20%;
 }
 
 #div10 {
@@ -342,6 +352,7 @@ body {
     align-content: center;
     justify-content: center;
     text-align: center;
+    margin-left: 20%;
 }
 
 #div12 {
