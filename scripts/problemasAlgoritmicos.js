@@ -264,6 +264,7 @@ const objetoEjercicios = {
 }
 
 function mostrarEjercicio1() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo1;
@@ -282,6 +283,7 @@ function mostrarEjercicio1() {
 }
 
 function mostrarEjercicio2() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo2;
@@ -300,6 +302,7 @@ function mostrarEjercicio2() {
 }
 
 function mostrarEjercicio3() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo3;
@@ -318,6 +321,7 @@ function mostrarEjercicio3() {
 }
 
 function mostrarEjercicio4() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo4;

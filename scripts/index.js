@@ -195,6 +195,7 @@ function ejercicio10() {
 
 let tituloEjercicio = document.getElementById("tituloEjercicio");
 let parrafoTexto = document.getElementById("parrafoTexto");
+const areaImagenes = document.getElementById("areaImagenes");
 const contenedorBotones = document.getElementById("contenedorBotones");
 const contenedorConsola = document.getElementById("contenedorConsola");
 const botonMostrarCodigo = document.getElementById("botonMostrarCodigo");
@@ -254,6 +255,7 @@ const objetoEjercicios = {
 };
 
 function mostrarEjercicio1() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo1;
@@ -281,6 +283,7 @@ function mostrarEjercicio1() {
 }
 
 function mostrarEjercicio2() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo2;
@@ -308,6 +311,7 @@ function mostrarEjercicio2() {
 }
 
 function mostrarEjercicio3() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo3;
@@ -335,6 +339,7 @@ function mostrarEjercicio3() {
 }
 
 function mostrarEjercicio4() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo4;
@@ -362,6 +367,7 @@ function mostrarEjercicio4() {
 }
 
 function mostrarEjercicio5() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo5;
@@ -389,6 +395,7 @@ function mostrarEjercicio5() {
 }
 
 function mostrarEjercicio6() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo6;
@@ -416,6 +423,7 @@ function mostrarEjercicio6() {
 }
 
 function mostrarEjercicio7() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo7;
@@ -443,6 +451,7 @@ function mostrarEjercicio7() {
 }
 
 function mostrarEjercicio8() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo8;
@@ -470,6 +479,7 @@ function mostrarEjercicio8() {
 }
 
 function mostrarEjercicio9() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo9;
@@ -497,6 +507,7 @@ function mostrarEjercicio9() {
 }
 
 function mostrarEjercicio10() {
+  contenedorConsola.style.display = "none";
   parrafoTexto.innerHTML = "";
   imagenEjercicio.src = "";
   tituloEjercicio.innerHTML = objetoEjercicios.titulo10;

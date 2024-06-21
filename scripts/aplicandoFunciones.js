@@ -254,6 +254,7 @@ function actualizarMenu() {
   };
   
   function mostrarEjercicio1() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo1;
@@ -282,6 +283,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio2() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo2;
@@ -309,6 +311,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio3() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo3;
@@ -336,6 +339,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio4() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo4;
@@ -363,6 +367,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio5() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo5;
@@ -390,6 +395,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio6() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo6;
@@ -417,6 +423,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio7() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo7;
@@ -444,6 +451,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio8() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo8;
@@ -471,6 +479,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio9() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo9;
@@ -498,6 +507,7 @@ function actualizarMenu() {
   }
   
   function mostrarEjercicio10() {
+    contenedorConsola.style.display = "none";
     parrafoTexto.innerHTML = "";
     imagenEjercicio.src = "";
     tituloEjercicio.innerHTML = objetoEjercicios.titulo10;
