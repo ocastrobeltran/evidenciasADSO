@@ -506,6 +506,12 @@ body {
     cursor: pointer;
 }
 
+.botonGA:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+
 .contenedorGA {
     display: flex;
     justify-content: center;
